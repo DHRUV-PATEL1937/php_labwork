@@ -1,0 +1,8 @@
+Name : 
+Gender : Radio btn
+Hobbies : Chck box [Least 5]
+City : Drop down [Nadiad, Anand, Surat]
+Pincode : 
+Email :
+Contact No. :
+Display in tabular format 	
