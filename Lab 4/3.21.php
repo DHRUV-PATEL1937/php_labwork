@@ -1,8 +1,13 @@
 <?php
-$d1 = date_create("2026-02-01");
-$d2 = date_create("2026-01-01");
-
-$diff = date_diff($d1, $d2);
-
-echo $diff->format('%m months, %d days');
+    $arr = array(1, 2, 3, 4, 5, 6);
+    $n = count($arr);
+    for ($i = 0; $i < $n - 1; $i += 2) {
+        $temp = $arr[$i];
+        $arr[$i] = $arr[$i + 1];
+        $arr[$i + 1] = $temp;
+    }
+    echo "Array after swapping:\n";
+    foreach ($arr as $a) {
+        echo $a . " ";
+    }
 ?>
